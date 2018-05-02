@@ -1,1 +1,1 @@
-Z:\Unity\HoloTest\BouncingLaser\UWP\BouncingLaser\AppPackages\BouncingLaser_1.0.19.0_x86_Debug_Test\BouncingLaser_1.0.19.0_x86_Debug.appx
+Z:\Unity\HoloTest\BouncingLaser\UWP\BouncingLaser\AppPackages\BouncingLaser_1.0.22.0_x86_Debug_Test\BouncingLaser_1.0.22.0_x86_Debug.appx

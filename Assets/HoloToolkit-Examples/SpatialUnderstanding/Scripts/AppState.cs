@@ -123,7 +123,7 @@ namespace HoloToolkit.Examples.SpatialUnderstandingFeatureOverview
                         case SpatialUnderstanding.ScanStates.Finishing:
                             return "Finalizing scan (please wait)";
                         case SpatialUnderstanding.ScanStates.Done:
-                            return "Scan complete - Use the menu to run queries";
+                            return "Scan complete";
                         default:
                             return "ScanState = " + SpatialUnderstanding.Instance.ScanState.ToString();
                     }

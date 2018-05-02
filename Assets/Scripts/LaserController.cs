@@ -7,7 +7,7 @@ public class LaserController : MonoBehaviour {
     public float WaitForMoveTime = 5;
     public int MovementSpeed = 5;
 
-    private bool _waitForMove = true;
+    private bool _waitForMove = false;
     private Rigidbody _rigidbody;
 	
 	// Update is called once per frame
@@ -18,16 +18,9 @@ public class LaserController : MonoBehaviour {
             if (WaitForMoveTime <= 0)
                 _waitForMove = false;
             return;
-        }    
+        }
 
-        if (_rigidbody.velocity.magnitude <= 0.1f)
-        {
-            _rigidbody.velocity = transform.forward * MovementSpeed;
-        }
-        else
-        {
-            _rigidbody.velocity = _rigidbody.velocity.normalized * MovementSpeed;
-        }
+        _rigidbody.velocity = _rigidbody.velocity.normalized * MovementSpeed;
     }
 
     /// <summary>
@@ -38,5 +31,7 @@ public class LaserController : MonoBehaviour {
         // Initialize fields
         _rigidbody = GetComponent<Rigidbody>();
         transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+
+        _rigidbody.velocity = transform.forward * MovementSpeed;
     }
 }

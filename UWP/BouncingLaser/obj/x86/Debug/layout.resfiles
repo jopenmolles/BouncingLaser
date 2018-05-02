@@ -10,15 +10,12 @@ Data\globalgamemanagers
 Data\globalgamemanagers.assets
 Data\level0
 Data\level0.resS
-Data\level1
-Data\level1.resS
 Data\managedAssemblies.txt
 Data\nativePlugins.txt
 Data\Resources\unity default resources
 Data\Resources\unity_builtin_extra
 Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
-Data\sharedassets1.assets
 GpuTiming.dll
 GpuTiming.pdb
 MicStreamSelector.dll

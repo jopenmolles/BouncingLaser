@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/Playfield.unity
+    guid: 05513e16a791bc64c9059b3b65a779bd
+  - enabled: 0
     path: Assets/_Scenes/Main.unity
     guid: f9a290b62d86f254880ff6b84d1caef5
-  - enabled: 1
+  - enabled: 0
+    path: Assets/HoloToolkit-Examples/SpatialUnderstanding/Scenes/SpatialUnderstandingExample.unity
+    guid: 7ecf1c34f0ac4b4449076e91efc011be
+  - enabled: 0
     path: Assets/HoloToolkit-Examples/SpatialMapping/Scenes/SpatialProcessing.unity
     guid: b7bd1052e811d44438fa58055dc800de
